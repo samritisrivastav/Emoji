@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emoji"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#45e8fa"
+        android:textStyle="bold"
+        android:id="@+id/text_view"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angry"
+        android:textSize="10dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle"
+        android:id="@+id/angry_id"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHUP"
+        android:textSize="10dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle"
+        android:id="@+id/chup_id"
+        android:layout_toRightOf="@id/angry_id"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Huhh"
+        android:textSize="10dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle"
+        android:id="@+id/huhh_id"
+        android:layout_toRightOf="@id/chup_id"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inlove"
+        android:textSize="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle"
+        android:id="@+id/inlove_id"
+        android:layout_below="@id/angry_id"
+        
+
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/angry"
+        android:layout_centerInParent="true"
+        android:id="@+id/mood"/>
+
+
+
+</RelativeLayout>
